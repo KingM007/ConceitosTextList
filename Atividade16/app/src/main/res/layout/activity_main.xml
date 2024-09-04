@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bluemarinho"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dados Pessoais"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/blueescuro"
+        />
+
+    <EditText
+        android:id="@+id/etnome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="digite seu nome"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="digite sua idade"
+        android:inputType="number"
+
+        />
+    <EditText
+        android:id="@+id/etaltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="digite sua altura"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:id="@+id/btnentrar"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="275dp"
+        android:text="Entrar"
+        />
+
+</LinearLayout>
