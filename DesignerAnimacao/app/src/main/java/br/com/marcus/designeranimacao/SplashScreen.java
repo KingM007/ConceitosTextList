@@ -10,6 +10,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.airbnb.lottie.Lottie;
+import com.airbnb.lottie.LottieAnimationView;
+
 public class SplashScreen extends AppCompatActivity {
 
     // CRIAR A INSTÂNCIA HANDLER --> PERMITE A EXECUÇÃO COM DELAY
@@ -17,6 +20,7 @@ public class SplashScreen extends AppCompatActivity {
 
     // CARIAR A INSTÂNCIA RUNNABLE -->  PERMITE A EXECUÇÃO APOS O DELAY
     Runnable runnable;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
